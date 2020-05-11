@@ -1,0 +1,428 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Gallery Station</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/grids.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+  <!------ Light Box ------>
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/ios-orientationchange-fix.js"></script> 
+<script src="js/jquery.swipebox.min.js"></script> 
+<script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+	<!------ Eng Light Box ------>
+	<!---- Contact form ----->
+	<script type="text/javascript">
+            $(document).ready(function(){
+
+                $("#contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+                });
+                
+            });
+            
+            function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
+           }
+        </script>
+	<!--- End Contactform ----->
+</head>
+<body>
+   <div class="main">
+	<div class="wrap">
+		<div class="left-content">
+			<div class="logo">
+				<h1><a href="details.html"><img src="images/fri.jpg" alt="" /></a></h1>
+			</div>
+			<div class="menu">			
+			  
+			  <div class="copy_right">
+						<p>  Design by  <a href="sam.html" >SAM MISHRA</a></p>
+		   			</div>
+		</div>
+	</div>
+	
+		<div class="right-content">
+			<div class="header"><h1 style ="text-align: center ;color:red ;font-size:400%">Friends &#128151;</h1>
+			<P style ="text-align: center ;color:blue ;font-size:150%">“A friend is someone who understands your past, believes in your future, and accepts you just the way you are.”</p>
+	   			<div class="social-icons">						
+		                <ul>
+		                    <li><a class="facebook" href="https://www.facebook.com/sam.mishra.50596" target="_blank"> </a></li>
+		                    <li><a class="twitter" href="#" target="_blank"></a></li>
+							
+		                    
+		                    <div class="clear"></div>
+		                </ul>
+		 		    </div>  	   
+				   			
+			  		 <div class="clear"></div>
+		  		 </div>
+			
+		<div id="content">
+				<div id="main" role="main">
+        <ul id="tiles">
+        <!--
+          These are our grid items. Notice how each one has classes assigned that
+          are used for filtering. The classes match the "data-filter" properties above.
+          -->
+        
+      
+	   <li data-filter-class='["photos", "blog"]'>
+	    <a href="images/ab2.jpg" class="swipebox" title="Sam"> 
+          <img  src="images/e.jpg" style = "height:300px ;width:400px"  alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="28 july" alt="" />
+             	
+             	<span>Sam Mishra</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+      <li data-filter-class='["photos", "blog"]'>
+	     <a href="images/ras.jpeg" class="swipebox" title="Sharique"> 
+          <img src="images/s1.jpeg" style = "width:300px ; height:350px" alt=""  /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="01 dec" alt="" />
+             	<span>Sharique Rasool</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+          <li data-filter-class='["photos", "blog"]'>
+		  <a href="images/tc1.jpeg" class="swipebox" title="tejas">
+          <img src="images/tc1.jpeg" style = "width:300px ;height:250px" alt="" /></a>
+          <p><a href="#"><img src="images/blog-icon1.png" title="24 sept" alt="" />
+             	
+             	<span>Tejas</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+     <li data-filter-class='["photos", "blog"]'>
+	      <a href="images/t1.jpeg" class="swipebox" title="Shubham">
+          <img src="images/shubh.jpg" style = "width:300px ;height:300px" alt="" /></a>
+          <p><a href="#"><img src="images/blog-icon1.png" title="27 March" alt="" />
+             	
+             	<span>Shubham Tiwari</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+       <li data-filter-class='["photos", "blog"]'>
+	      <a href="images/ro1.jpeg" class="swipebox" title="Rohan">
+          <img src="images/ro2.jpeg" style = "width:300px ;height:290px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="10 feb" alt="" />
+             	<span>Rohan Gupta</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+         <li data-filter-class='["music", "video"]'>
+		 <a href="images/s11.jpeg" class="swipebox" title="Shikha">
+          <img src="images/s12.jpeg" style = "width:300px ;height:310px" alt="" /></a>
+             <p><a href="details.html"><img src="images/blog-icon1.png" title="06 sept" alt="" />
+             	
+             	<span>Shikha pathak</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+        <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/ay1.jpeg" class="swipebox" title="Ayushi"> 
+          <img src="images/ay2.jpg" style = "width:300px ;height:300px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="02 oct" alt="" />
+             
+             	<span>Ayushi Yadav</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+          <li data-filter-class='["photos", "blog"]'>
+		  <a href="images/mp.jpeg" class="swipebox" title="Mani">
+          <img src="images/mp1.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="13 July" alt="" />
+             	
+             	<span>Mani Panday</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+          <li data-filter-class='["photos", "blog"]'>
+		  <a href="images/su1.jpeg" class="swipebox" title="Shashank">
+          <img src="images/su1.jpeg" style = "width:300px ;height:290px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="25 jan" alt="" />
+             	
+             	<span>shashank savita</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/rt.jpeg" class="swipebox" title="Tanya"> 
+          <img src="images/rt.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="03 jan" alt="" />
+             
+             	<span>Tanya</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+          <li data-filter-class='["photos", "blog"]'>
+		  <a href="images/shiv.jpeg" class="swipebox" title="shivangi">
+          <img src="images/shiv.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="25 Aug" alt="" />
+             	
+             	<span>Shivangi </span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["music", "video"]'>
+		 <a href="images/udi.jpeg" class="swipebox" title="Udit">
+          <img src="images/udi.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+             <p><a href="details.html"><img src="images/blog-icon1.png" title="13 sept" alt="" />
+             	
+             	<span>udit Tiwari</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/v1.jpeg" class="swipebox" title="vikas">
+          <img src="images/v1.jpeg" style = "width:300px ;height:310px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="15 Feb" alt="" />
+             	
+             	<span>Vikas Panday</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/mc1.jpeg" class="swipebox" title="Muskan">
+          <img src="images/mc2.jpeg" style = "width:300px ;height:300px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="25 Oct" alt="" />
+             	
+             	<span>Muskan</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/an1.jpeg" class="swipebox" title="Aman">
+          <img src="images/an1.jpeg" style = "width:300px ;height:270px"alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="17 Apirl" alt="" />
+             	
+             	<span>Aman</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+       <li data-filter-class='["photos", "blog"]'>
+	    <a href="images/ci1.jpeg" class="swipebox" title="Shikha"> 
+          <img src="images/ci1.jpeg" style = "width:300px ;height:300px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="10 june" alt="" />
+             	
+             	<span>Shikha</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/abh1.jpeg" class="swipebox" title="Abhishek">
+          <img src="images/abh1.jpeg" style = "width:300px ;height:310px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="04 Oct" alt="" />
+             	
+             	<span>Abhishek</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+         <li data-filter-class='["music", "video"]'>
+		 <a href="images/su.jpeg" class="swipebox" title="sujeet">
+          <img src="images/su.jpeg" style = "width:300px ;height:270px"  alt="" /></a>
+             <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Sujeet Kumar Gupta</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/ri.jpeg" class="swipebox" title="rishi">
+          <img src="images/ri.jpeg" style = "width:300px ;height:270px"alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="29 Oct" alt="" />
+
+             	<span>Rishi</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/o1.jpeg" class="swipebox" title="Owais">
+          <img src="images/o1.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Owais</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/r1.jpeg" class="swipebox" title="Rohan">
+          <img src="images/r1.jpeg" style = "width:300px ;height:270px"  alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Rohan</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+        <li data-filter-class='["photos", "blog"]'>
+		<a href="images/ni.jpeg" class="swipebox" title="Nikhil"> 
+          <img src="images/ni.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Nikhil</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+         <li data-filter-class='["music", "video"]'>
+		 <a href="images/ps1.jpeg" class="swipebox" title="prgya"> 
+          <img src="images/p23.jpeg" height="310" width="300" alt="" /></a>
+             <p><a href="details.html"><img src="images/blog-icon1.png" title="13 sept" alt="" />
+             	
+             	<span>Prgya</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+        <li data-filter-class='["photos", "blog"]'>
+		<a href="images/ga1.jpeg" class="swipebox" title="Pranjul"> 
+          <img src="images/ga1.jpeg"  style = "width:300px ; height:300px" alt=""  /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>pranjul</span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+        <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/piy.jpeg" class="swipebox" title="Piyush">
+          <img src="images/piy.jpeg" style = "width:300px ;height:270px"  alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+				
+             	<span>Piyush</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+        <li data-filter-class='["photos", "blog"]'>
+		<a href="images/ci.jpeg" class="swipebox" title="Chinmay">
+          <img src="images/ci.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Chinmay</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/aby1.jpeg" class="swipebox" title="Abhay">
+          <img src="images/aby1.jpeg"  style = "width:300px ;height:270px"alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Abhay</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/vp1.jpeg" class="swipebox" title="Vishal panday">
+          <img src="images/vp1.jpeg" style = "width:300px ;height:270px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>vishal panday</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/vp.jpeg" class="swipebox" title="vishal pathak">
+          <img src="images/vp.jpeg" style = "width:300px ;height:310px"  alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>vishal pathak</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+          <li data-filter-class='["photos", "blog"]'>
+		  <a href="images/so1.jpeg" class="swipebox" title="Sonam">
+          <img src="images/so1.jpeg" style = "width:300px ;height:310px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Sonam</span>
+             	<div class="clear"></div>
+             </a></p>
+      </li>
+         <li data-filter-class='["photos", "blog"]'>
+		 <a href="images/g1.jpg" class="swipebox" title="group pic">
+          <img src="images/g1.jpg" style = "width:300px ;height:250px" alt="" /></a>
+          <p><a href="details.html"><img src="images/blog-icon1.png" title="" alt="" />
+             	
+             	<span></span>
+             	<div class="clear"></div>
+             </a></p>
+       </li>
+         <li data-filter-class='["photos", "blog"]'>
+		  <a href="images/ma.jpeg" class="swipebox" title="Mayank">
+          <img src="images/ma.jpeg"  style = "width:300px ; height:250px" alt="" /></a>
+             <p><a href="details.html"><img src="images/blog-icon1.png" title="posted date" alt="" />
+             	
+             	<span>Mayank</span>
+             	<div class="clear"></div>
+             </a></p>
+        </li>
+       
+        
+         
+        <!-- End of grid blocks -->
+      </ul>
+
+    </div>
+   
+
+  <!-- Include the imagesLoaded plug-in -->
+  <script src="js/jquery.imagesloaded.js"></script>
+  <script src="js/jquery.wookmark.js"></script>
+  <!-- Once the page is loaded, initalize the plug-in. -->
+  <script type="text/javascript">
+    (function ($){
+      $('#tiles').imagesLoaded(function() {
+        // Prepare layout options.
+        var options = {
+          autoResize: true, // This will auto-update the layout when the browser window is resized.
+          container: $('#main'), // Optional, used for some extra CSS styling
+          offset: 2, // Optional, the distance between grid items
+          itemWidth:310 // Optional, the width of a grid item
+        };
+
+        // Get a reference to your grid items.
+        var handler = $('#tiles li'),
+            filters = $('#filters li');
+
+        // Call the layout function.
+        handler.wookmark(options);
+
+        /**
+         * When a filter is clicked, toggle it's active state and refresh.
+         */
+        var onClickFilter = function(event) {
+          var item = $(event.currentTarget),
+              activeFilters = [];
+          item.toggleClass('active');
+
+          // Collect active filter strings
+          filters.filter('.active').each(function() {
+            activeFilters.push($(this).data('filter'));
+          });
+
+          handler.wookmarkInstance.filter(activeFilters, 'or');
+        }
+
+        // Capture filter click events.
+        filters.click(onClickFilter);
+      });
+    })(jQuery);
+  </script>
+	</div>
+  </div>
+		<div class="clear"></div>
+	</div>
+</div>
+</body>
+</html>
